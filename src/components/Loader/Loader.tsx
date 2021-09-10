@@ -1,6 +1,6 @@
 import styled, { StyledComponent } from '@emotion/styled';
 import React, { DetailedHTMLProps, HTMLAttributes } from 'react';
-import { keyframes } from '@emotion/core';
+import { keyframes } from '@emotion/react';
 import { Keyframes } from '@emotion/serialize';
 import { prop } from 'styled-tools';
 

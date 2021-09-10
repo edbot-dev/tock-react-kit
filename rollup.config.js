@@ -8,9 +8,8 @@ export default {
   external: [
     'react',
     'react-dom',
-    '@emotion/core',
     '@emotion/styled',
-    'emotion-theming'
+    '@emotion/react',
   ],
   output: [
     {
@@ -21,8 +20,7 @@ export default {
         react: 'React',
         'react-dom': 'ReactDOM',
         '@emotion/styled': 'emotionStyled',
-        '@emotion/core': 'emotionCore',
-        'emotion-theming': 'emotionTheming',
+        '@emotion/react': 'emotionReact',
       },
     },
     {

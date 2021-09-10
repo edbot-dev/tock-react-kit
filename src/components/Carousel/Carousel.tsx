@@ -3,7 +3,7 @@ import React, { DetailedHTMLProps, HTMLAttributes, ReactElement } from 'react';
 import { ArrowLeftCircle, ArrowRightCircle } from 'react-feather';
 import { opacify } from 'polished';
 import { prop } from 'styled-tools';
-import { useTheme } from 'emotion-theming';
+import { useTheme } from '@emotion/react';
 import useCarousel from './hooks/useCarousel';
 import useArrowVisibility from './hooks/useArrowVisibility';
 import TockTheme from 'styles/theme';

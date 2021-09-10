@@ -10,15 +10,14 @@ Create web UIs for Tock chatbots
 
 ## Quick Start
 
-Include `react`, `react-dom`, `@emotion-core`, `@emotion-styled`, `emotion-theming` and `tock-react-kit` in an HTML page.
+Include `react`, `react-dom`, `@emotion/react`, `@emotion-styled` and `tock-react-kit` in an HTML page.
 _React must be at least version 16.8 (must have hooks)_
 
 ```html
 <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-<script crossorigin src="https://unpkg.com/@emotion/core@10/dist/core.umd.min.js"></script>
 <script crossorigin src="https://unpkg.com/@emotion/styled@10/dist/styled.umd.min.js"></script>
-<script crossorigin src="https://unpkg.com/emotion-theming@10/dist/emotion-theming.umd.min.js"></script>
+<script crossorigin src="https://unpkg.com/@emotion/react@11.4.1/dist/emotion-react.umd.min.js"></script>
 <script
   crossorigin
   src="https://unpkg.com/tock-react-kit@latest/build/tock-react-kit.umd.js"
@@ -42,9 +41,8 @@ You can also use it as a module (i.e [Create React App](https://github.com/faceb
 
 ```
 npm i tock-react-kit
-npm i @emotion/core@10
+npm i @emotion/react
 npm i @emotion/styled@10
-npm i emotion-theming@10
 ```
 
 ```js
@@ -125,7 +123,7 @@ Hook that provides chat history and methods to communicate with the Tock Bot. It
 
 ### `TockTheme`
 
-A `TockTheme` can be used as a value of a `ThemeProvider` of [`emotion-theming`](https://emotion.sh/docs/theming) (bundled with the library) or as a third argument of `renderChat`.
+A `TockTheme` can be used as a value of a `ThemeProvider` of [`@emotion/react`](https://emotion.sh/docs/theming) (bundled with the library) or as a third argument of `renderChat`.
 
 | Property name       | Type              | Description                                               |
 |---------------------|-------------------|-----------------------------------------------------------|
